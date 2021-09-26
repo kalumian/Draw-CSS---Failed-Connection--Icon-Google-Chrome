@@ -1,0 +1,117 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(32 32 36);
+}
+
+.body {
+  position: relative;
+  width: 165px;
+  border: 18px solid rgb(172 172 172);
+  height: 204px;
+  background-color: #fefefe00;
+}
+
+.eay {
+  top: 19%;
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 37px;
+  background: #acacac;
+  left: 18%;
+}
+
+.mouth {
+  top: 77%;
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+.mouth span:first-child {
+  width: 75px;
+  background: rgb(172 172 172);
+  height: 20px;
+  position: absolute;
+  display: block;
+  left: 30%;
+  top: -16px;
+}
+.mouth span:nth-child(2) {
+  width: 18px;
+  background: rgb(172 172 172);
+  height: 18px;
+  position: absolute;
+  display: block;
+  left: 20%;
+  top: 3px;
+}
+.mouth span:nth-child(3) {
+  width: 18px;
+  background: rgb(172 172 172);
+  height: 18px;
+  position: absolute;
+  display: block;
+  right: 16%;
+  top: 3px;
+}
+
+.hr {
+  right: 0;
+  position: absolute;
+}
+
+.hr span:first-child {
+  display: block;
+  width: 20px;
+  height: 57px;
+  background: rgb(172, 172, 172);
+}
+.hr span:last-child {
+  display: block;
+  width: 75px;
+  height: 18px;
+  background: rgb(172, 172, 172);
+}
+
+.sq {
+  position: absolute;
+  right: 0;
+}
+.sq div:first-child {
+  left: -40px;
+  position: absolute;
+  z-index: 10;
+  top: -20px;
+}
+.sq div:nth-child(2) {
+  top: -20px;
+  position: absolute;
+  left: -20px;
+}
+.sq div:nth-child(3) {
+  position: absolute;
+  left: -2px;
+  bottom: -61px;
+}
+
+.sq div span:last-child {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: rgb(172, 172, 172);
+}
+.sq div span:first-child {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #202024;
+}
+.sq div:nth-child(2) span:first-child {
+  height: 40px;
+}
+.sq div:nth-child(3) span:first-child {
+  height: 60px;
+}
